@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Last.fm Genre Grabber</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div id="mainSearch">
+		<h2>Last.fm Genre Grabber</h2>
+		<p style="font-size:12px"><b>Type artist name (e.g. <i>Coldplay</i>) and hit ENTER</b></p>
+		<form accept-charset="utf-8" id="lastfmSearch" onsubmit="grabGenres()">
+			<input type="text" style="width:75%" class="text" name="query" id="artistInput" />
+		</form>
+	</div>
+	<div class="output"></div>
+  	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+   	<script  src="js/index.js"></script>
+</body>
+
+</html>
