@@ -1,0 +1,61 @@
+body {
+    background-color: #292929;
+    font-family: Roboto;
+}
+
+h1 {
+    background-color: #292929;
+    font-family: Roboto;
+}
+
+h2 {
+    background-color: #292929;
+    color: #bfbfbf;
+    font-family: Roboto;
+}
+
+h3 {
+    background-color: #292929;
+    color: #bfbfbf;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+p {
+    background-color: #292929;
+    font-family: Roboto;
+    color: #bfbfbf;
+    font-size: 12px
+}
+
+a:link {
+    text-decoration: none;
+    color: #628BAB;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #BCD380;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.output {
+    text-align: center
+}
+
+#mainSearch {
+    text-align: center
+}
+
+.message {
+    font-weight: bold;
+}
