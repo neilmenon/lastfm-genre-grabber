@@ -1,4 +1,4 @@
-// Copyright © 2018 Neil Menon
+// Copyright © 2019 Neil Menon
 // http://neilmenon.com
 // https://github.com/neilmenon
 $("#mainSearch").submit(function(e) {
